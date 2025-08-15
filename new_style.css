@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-image: url(back.jpg);
+  height: 80vh;
+  position: relative;
+}
+
+.head {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  gap: 45%;
+}
+
+.logo {
+  width: 8%;
+}
+
+.button-sign {
+  margin: 5px;
+  border: 0;
+  background-color: red;
+  color: white;
+  font-family: calibri;
+  font-size: 16px;
+  width: 75px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lang {
+  width: 123px;
+  height: 32px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+main {
+  /* background-color: aqua; */
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  /* transform: translateY(68%); */
+}
+
+.main-a {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  /* margin: 20px; */
+}
+
+.main-a-1 {
+  width: 490px;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+.main-b {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.main-c {
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 30px;
+  color: white;
+}
+
+.main-d {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 5px;
+  color: white;
+}
+
+.main-d > input {
+  color: white;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 348px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+::placeholder {
+  color: #bbb9b9;
+  font-weight: 300;
+}
+
+.main-d > .email-button {
+  font-size: 1.5rem;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  width: 206px;
+  cursor: pointer;
+}
+
+.trend {
+  /* background-color: aquamarine; */
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-left: 8%;
+  margin-top: 25px;
+}
+
+#region,
+#content {
+  text-align: left;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#region {
+  margin-left: 8%;
+  width: 95px;
+}
+
+#content {
+  width: 100px;
+}
+
+.movie-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+  height: 30vh;
+  gap: 2%;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.movie-image > img {
+  border-radius: 5px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.movie-image > img:hover {
+  transform: scale(1.05);
+}
+
+.reasons {
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-top: 25px;
+  margin-left: 8%;
+}
+
+.more-reason {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 15vmax;
+  gap: 10px;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.reason-a > p {
+  font-size: 16px;
+  color: #ffffffb3;
+}
+
+.more-reason > div {
+  color: white;
+  padding: 20px;
+  width: 21%;
+  height: 70%;
+  border-radius: 10px;
+  background: linear-gradient(150deg, #131335, #131335, #20121f, #20121f);
+}
+
+.more-reason > div > p {
+  transform: translateY(10px);
+}
+
+.reason-a {
+  font-size: 25px;
+  position: relative;
+}
+
+.tv-img {
+  position: relative;
+  left: 83%;
+  top: 25%;
+}
+
+.down-img {
+  position: relative;
+  left: 83%;
+  top: 5%;
+}
+
+.pop-img {
+  position: relative;
+  left: 83%;
+  top: 20%;
+}
+
+.smile-img {
+  position: relative;
+  left: 83%;
+  top: 10%;
+}
+
+.question {
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 3%;
+  margin-left: 8%;
+  /* background-color: purple; */
+}
+
+.a1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  width: 70%;
+  background-color: #2d2d2d;
+  height: 60px;
+  transform: translateY(10px);
+  padding-left: 2%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+ul {
+  list-style: none;
+}
+
+footer .question ul label + input[type="radio"] {
+  display: none;
+}
+
+p {
+  margin: 0;
+}
+
+.a1-detail-1 {
+  color: white;
+  font-size: 25px;
+  width: 71.4%;
+  margin-top: 0.7%;
+  background-color: #2d2d2d;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.a1-detail-content {
+  padding: 2%;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+li:has(input[type="radio"]:checked) .a1-detail-1 {
+  max-height: 400px;
+}
+
+li:has(input[type="radio"]:checked) .plus-text img {
+  transform: rotate(45deg);
+}
+
+.a1:hover {
+  background-color: #545454d0;
+}
+
+.ready {
+  margin-top: 55px;
+  margin-left: 8%;
+  margin-bottom: 1%;
+  height: 15px;
+  /* background-color: red; */
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.ready-a {
+  margin-left: 8%;
+  /* background-color: bisque; */
+}
+
+.ready-a > input {
+  width: 40%;
+  height: 56px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid grey;
+  padding: 0px 16px 0px;
+  font-size: 1rem;
+}
+
+.ready-a > .email-button {
+  font-size: 1.5rem;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  width: 22vh;
+  height: 56px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.call {
+  color: #ffffffb3;
+  font-family: sans-serif;
+  margin-top: 25px;
+}
+
+.call > span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bottom-link {
+  height: 25vmin;
+  /* background-color: coral; */
+  margin-left: 8%;
+  margin-top: 2%;
+  color: #ffffffb3;
+  display: grid;
+  align-items: end;
+  grid-template-columns: repeat(4, 15%);
+  grid-template-rows: repeat(6, 15%);
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.bottom-link > div {
+  cursor: pointer;
+}
+
+.bottom-link > div {
+  cursor: pointer;
+}
+
+#bottom-lang {
+  margin-left: 8%;
+  margin-bottom: 5%;
+  font-family: sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #ffffffb3;
+}
+
+@media only screen and (orientation: portrait) {
+  .logo {
+    width: 30%;
+  }
+
+  #lang {
+    width: 90px;
+  }
+
+  .button-sign {
+    font-size: 14px;
+  }
+
+  .head {
+    gap: 0;
+  }
+
+  .main-a-1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .main-b {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .main-c {
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .main-d > .email-button {
+    font-size: 1rem;
+    width: 150px;
+    padding: 0;
+  }
+
+  .trend {
+    font-size: 18px;
+  }
+
+  .movie-image {
+    height: 20vh;
+    gap: 5%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    justify-content: normal;
+  }
+
+  .movie-image > img {
+    width: 30%;
+  }
+
+  .reasons {
+    font-size: 18px;
+  }
+
+  .reason-a > div {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .more-reason {
+    height: 100vmax;
+  }
+
+  .more-reason > div {
+    font-size: 16px;
+    width: 80%;
+    height: 18%;
+  }
+
+  .tv-img {
+    top: 2%;
+  }
+
+  .down-img {
+    top: 3%;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  .a1 {
+    font-size: 18px;
+    width: 90%;
+    height: 45px;
+  }
+
+  .a1-detail-1 {
+    font-size: 17px;
+    width: 82vw;
+  }
+
+  .a1-detail-content {
+    padding: 5%;
+  }
+
+  .ready {
+    font-size: 12px;
+    margin-bottom: 2%;
+    height: 4%;
+  }
+
+  .ready-a > .email-button {
+    font-size: 15px;
+    width: 12vh;
+  }
+
+  .bottom-link {
+    height: 38vmax;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(6, 12%);
+    margin-bottom: 15%;
+  }
+}
