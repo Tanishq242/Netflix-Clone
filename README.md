@@ -5,18 +5,10 @@ This project focuses on recreating the user interface using clean code, responsi
 
 ---
 
-## 📸 Demo
-
-![Netflix UI Preview](./preview.png)  
-*(Replace with an actual screenshot or GIF of your project)*
-
----
-
 ## 🚀 Features
 
 - **Modern Netflix-like UI**
 - **Responsive design** for mobile, tablet, and desktop
-- **Dynamic movie/TV show banners**
 - **Hover effects** for movie posters
 - **Scrollable content rows**
 - **Custom fonts & colors** for a Netflix-style look
@@ -27,8 +19,6 @@ This project focuses on recreating the user interface using clean code, responsi
 
 - **HTML5** – Structure of the web page
 - **CSS3** – Styling with Flexbox & Grid
-- **JavaScript (ES6)** – Interactivity and dynamic elements
-- **API Integration** *(optional)* – Fetch movie data from [TMDB API](https://www.themoviedb.org/) or custom JSON
 
 ---
 
@@ -38,6 +28,4 @@ This project focuses on recreating the user interface using clean code, responsi
 Netflix-UI-Clone/
 │── index.html        # Main HTML file
 │── style.css         # Main stylesheet
-│── script.js         # JavaScript functionality
-│── assets/           # Images, icons, fonts
 │── README.md         # Project documentation
